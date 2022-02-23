@@ -14,3 +14,37 @@ Decodifico i dati (coordinate X e Y) e le elaboro per poter mandare i comandi ai
 - Batteria superiore ai 7V, massimo 12v
 - Dc-Dc step down (alimentazione del micro 3.3v o 5v)
 - Pezzi cingolato e motori, suggerisco: [cingolato giocattolo](https://it.banggood.com/3V-9V-DIY-Shock-Absorbed-Smart-Robot-Tank-Chassis-Crawler-Car-Kit-With-260-Motor-p-1184648.html?rmmds=myorder&cur_warehouse=CN)
+
+Come Joystik ho usato quello creato da Roberto D'Amico https://github.com/bobboteck/JoyStick 
+![image](https://user-images.githubusercontent.com/44021742/155380700-e82b2d04-7dc6-47b7-b091-1b8cc5ef1045.png)
+
+il codice essenziale utilizzato per inviare i dati dal Joystick verso il server tramite il metodo GET è il seguente: 
+
+````
+    if ( letsDoIt ) {
+      letsDoIt = false;
+      fetch("/index?X="+joy1IinputPosX.value+"&Y="+joy1InputPosY.value).then( () => {
+        letsDoIt = true;
+      })
+    }
+    
+````
+
+In questo caso è un semaforo, una volta inviati i dati è sufficiente rispondere con qualunque informazione.
+Il codice di risposta sull'ESP8266 che da adesso chiameremo uP è il seguente:
+
+````
+// richiesta di esempio personalizzata di prova
+  httpServer.on("/index", HTTP_GET, [](AsyncWebServerRequest *request){    
+    String inputMessage1;
+    String inputMessage2;
+      if (request->hasParam(input_parameter1) && request->hasParam(input_parameter2)) {
+        inputMessage1 = request->getParam(input_parameter1)->value();
+        inputMessage2 = request->getParam(input_parameter2)->value();
+        Serial.println("X pos: " + inputMessage1 + " Y pos: " + inputMessage2);
+        motore(inputMessage1.toInt(),inputMessage2.toInt());
+        request->send(200, "text/plain", "next");
+      }
+    });
+`````
+
