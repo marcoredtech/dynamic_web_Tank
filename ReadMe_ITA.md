@@ -64,6 +64,12 @@ Un altra parte importante del progetto è il caricamento dei dati sul uP nella f
 https://arduino-esp8266.readthedocs.io/en/latest/filesystem.html#uploading-files-to-file-system
 Altro non è che la guida ufficiale, ma se avete difficoltà basta guardare su youtube i numerosi documenti, ma i passaggi sono abbastanza semplici.
 
+## Circuito elettrico
+
+Schema stile Paint XD
+![image](https://user-images.githubusercontent.com/44021742/155512256-6e49583c-c060-4e82-8204-c67af4bd0586.png)
+
+
 ## Ringraziamenti speciali
 
 - Ringrazio il gruppo su telegram di Arduino italia https://t.me/ArduinoItalia
