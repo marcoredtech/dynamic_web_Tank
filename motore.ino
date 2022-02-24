@@ -23,15 +23,6 @@ sxi = sxi - rsx;
 dxa = dxa - rdx;
 dxi = dxi - rdx;
 
-////if(sxa < 0){ sxa = 0;}
-////if(sxi < 0){ sxi = 0;}
-////if(dxa < 0){ dxa = 0;}
-////if(dxi < 0){ dxi = 0;}
-//sxa = max(sxa,0);
-//sxi = max(sxi,0);
-//dxa = max(dxa,0);
-//dxi = max(dxi,0);
-
 
       analogWrite(MotoreSxAvanti, sxa);
       analogWrite(MotoreDxAvanti, dxa);
