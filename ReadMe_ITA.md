@@ -58,3 +58,13 @@ httpServer.on("/index", HTTP_GET, [](AsyncWebServerRequest *request){
 - Al termine invio una risposta 'request->send(200, "text/plain", "next");'
 
 Perchè invio una risposta in un sistema Async? il problema in fase di progettazione lo ho avuto nel momento che il browser inviava una mole di GET superiori a quelli che avrei potuto gestire con il uP.
+
+
+Un altra parte importante del progetto è il caricamento dei dati sul uP nella flash, questo argomento è facilmente ricercabile in rete,ma per semplificare inserisco questo link:
+https://arduino-esp8266.readthedocs.io/en/latest/filesystem.html#uploading-files-to-file-system
+Altro non è che la guida ufficiale, ma se avete difficoltà basta guardare su youtube i numerosi documenti, ma i passaggi sono abbastanza semplici.
+
+## Ringraziamenti speciali
+
+Ringrazio il gruppo su telegram di Arduino italia https://t.me/ArduinoItalia
+Ringrazio il gruppo su telegram di Javascript https://t.me/javascript_ita
