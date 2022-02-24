@@ -1,10 +1,10 @@
-Ciao a tutti, in questa prima prima versione ho inserito il codice per pilotare un mezzo cingolato tramite un Joystick visualizzabile tramite un browser.
+Ciao a tutti, in questa prima versione ho inserito il codice per pilotare un mezzo cingolato tramite un Joystick visualizzabile tramite un browser.
 
 Il principio di funzionamento è il seguente:
 
-Joystick su web Browser [invio tramite header GET i dati]
-Ricevo i dati tramite il web server async installato su di un microcontrollore (ESP8266)
-Decodifico i dati (coordinate X e Y) e le elaboro per poter mandare i comandi ai motori
+- Joystick su web Browser [invio tramite header GET i dati]
+- Ricevo i dati tramite il web server async installato su di un microcontrollore (ESP8266)
+- Decodifico i dati (coordinate X e Y) e le elaboro per poter mandare i comandi ai motori
 
 ## Materiale:
 
@@ -66,5 +66,5 @@ Altro non è che la guida ufficiale, ma se avete difficoltà basta guardare su y
 
 ## Ringraziamenti speciali
 
-Ringrazio il gruppo su telegram di Arduino italia https://t.me/ArduinoItalia
-Ringrazio il gruppo su telegram di Javascript https://t.me/javascript_ita
+- Ringrazio il gruppo su telegram di Arduino italia https://t.me/ArduinoItalia
+- Ringrazio il gruppo su telegram di Javascript https://t.me/javascript_ita in modo particolare l'utente @fatshotty autore della funzione alla base dell'invio dei dati sullo script js.
