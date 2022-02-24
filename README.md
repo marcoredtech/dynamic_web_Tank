@@ -21,8 +21,11 @@ Il principio di funzionamento è il seguente:
 - [ESPAsyncTCP](https://github.com/me-no-dev/ESPAsyncTCP)
 - [Plug-in per lo SPIFF](https://github.com/esp8266/arduino-esp8266fs-plugin/releases) , ti consiglio di leggere questa guida molto ben fatta di [Renzo Mischianti](https://www.mischianti.org/it/2019/08/30/wemos-d1-mini-esp8266-sistema-operativo-integrato-spiffs-parte-2/) da cui ho preso numerosi spunti e ringrazio.
 
+## Interfaccia grafica
 
-Come Joystik ho usato quello creato da Roberto D'Amico https://github.com/bobboteck/JoyStick 
+Come Joystik ho usato quello creato da Roberto D'Amico 
+https://github.com/bobboteck/JoyStick 
+
 ![image](https://user-images.githubusercontent.com/44021742/155380700-e82b2d04-7dc6-47b7-b091-1b8cc5ef1045.png)
 
 il codice essenziale utilizzato per inviare i dati dal Joystick verso il server tramite il metodo GET è il seguente: 
@@ -38,6 +41,9 @@ il codice essenziale utilizzato per inviare i dati dal Joystick verso il server 
 ````
 
 In questo caso è un semaforo, una volta inviati i dati è sufficiente rispondere con qualunque informazione.
+
+## Software microcontrollore
+
 Il codice di risposta sull'ESP8266 che da adesso chiameremo uP è il seguente:
 
 ````
