@@ -48,3 +48,13 @@ Il codice di risposta sull'ESP8266 che da adesso chiameremo uP è il seguente:
     });
 `````
 
+
+````
+httpServer.on("/index", HTTP_GET, [](AsyncWebServerRequest *request){
+````
+- Tutto quello che mi arriva su index come GET viene catturato e recuperato in request.
+- Dopodichè vado a recuperare le informazioni all'interno attraverso alla funzione 'getParam()' che fa un parser del valore inserito nella stringa input_paramaterX
+- All'interno di questa funzione ho anche l'azione che vado a compiere immediatamente dopo aver ricevuto l'informazione utilizzando la funzione motore()
+- Al termine invio una risposta 'request->send(200, "text/plain", "next");'
+
+Perchè invio una risposta in un sistema Async? il problema in fase di progettazione lo ho avuto nel momento che il browser inviava una mole di GET superiori a quelli che avrei potuto gestire con il uP.
