@@ -1,3 +1,6 @@
+![photo_2022-02-25_08-41-41](https://user-images.githubusercontent.com/44021742/155675168-04c24b46-b71e-421e-b997-57af2e202cdb.jpg)
+
+
 Ciao a tutti, in questa prima versione ho inserito il codice per pilotare un mezzo cingolato tramite un Joystick visualizzabile tramite un browser.
 
 Il principio di funzionamento è il seguente:
@@ -88,3 +91,10 @@ Schema stile Paint XD
 - Ringrazio il gruppo su telegram di Arduino italia https://t.me/ArduinoItalia
 - Ringrazio il gruppo su telegram di Javascript https://t.me/javascript_ita in modo particolare l'utente @fatshotty autore della funzione alla base dell'invio dei dati sullo script js.
 - Ringrazio [Renzo Mischianti](https://www.mischianti.org) per i numerosi spunti che ho appreso leggendo il suo sito.
+
+
+![photo_2022-02-25_08-41-44](https://user-images.githubusercontent.com/44021742/155675296-d49b774f-4346-4831-878e-06537b89680d.jpg)
+![photo_2022-02-25_08-41-38](https://user-images.githubusercontent.com/44021742/155675319-0c47770b-1286-4cf7-916d-92141adc93bc.jpg)
+![photo_2022-02-25_08-41-34](https://user-images.githubusercontent.com/44021742/155675343-2bae2be2-4cc6-4639-ad36-f1185c7e89bb.jpg)
+
+
