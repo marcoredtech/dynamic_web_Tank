@@ -1,4 +1,4 @@
-![photo_2022-02-25_08-41-41](https://user-images.githubusercontent.com/44021742/155675168-04c24b46-b71e-421e-b997-57af2e202cdb.jpg)
+<a href="https://youtu.be/GGY9ndOfeBk" target="_blank"><img src="https://user-images.githubusercontent.com/44021742/155675168-04c24b46-b71e-421e-b997-57af2e202cdb.jpg" width="500" height="500"></a> Clicca sull'immagine per vedere il video
 
 
 Ciao a tutti, in questa prima versione ho inserito il codice per pilotare un mezzo cingolato tramite un Joystick visualizzabile tramite un browser.
