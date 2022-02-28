@@ -1,3 +1,7 @@
+English Version see wiki please. (And sorry for my bad english! :P) 
+Italian Version below
+
+
 <a href="https://youtu.be/GGY9ndOfeBk" target="_blank"><img src="https://user-images.githubusercontent.com/44021742/155675168-04c24b46-b71e-421e-b997-57af2e202cdb.jpg" width="500" height="500"></a> Clicca sull'immagine per vedere il video
 
 
