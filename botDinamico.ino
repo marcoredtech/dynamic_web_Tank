@@ -7,8 +7,8 @@ uint8_t MotoreSxAvanti = D5;     // Enable dei motori
 uint8_t MotoreSxIndietro = D6;
 uint8_t MotoreDxAvanti = D2;
 uint8_t MotoreDxIndietro = D3;
-const char* ssid = "ASUS base";
-const char* password = "marconovelliluisabarchetti.2011";
+const char* ssid = "network";
+const char* password = "password";
 const char* input_parameter1 = "X";
 const char* input_parameter2 = "Y";
 
